@@ -53,3 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Arquivos e pastas específicos do Code::Blocks
+bin/
+obj/
+*.layout
+*.depend
