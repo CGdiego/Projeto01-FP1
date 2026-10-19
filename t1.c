@@ -66,7 +66,7 @@ int calculaInterseccao (int n_retangulos){
 unsigned int encontraParMaisProximo (int n_retangulos){
     // Declara a distância, índices e centros
     float distancia, menorDistancia = FLT_MAX;
-    float xCi, yCi, xCj, yCj;
+    float xCi, yCi, xCj, yCj, dx, dy;
     int id1 = 0, id2 = 0;
     int i, j;
 
